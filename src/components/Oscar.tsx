@@ -4,6 +4,6 @@ children: React.ReactNode
 
 export const Oscar = (props: OscarProps) => {
     return (
-        <div></div>
+        <div>{props.children}</div>
     )
 }
