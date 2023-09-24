@@ -1,7 +1,5 @@
  
 import { useReducer } from "react";
-
-
 type CounterState = {
     count: number
 }
@@ -29,7 +27,6 @@ function reducer(state: CounterState , action: CounterAction) {
             return state
     }
 }
-
 export const Counter = () => {
     const [state, dispatch] = useReducer(reducer, initiateState)
     return (
